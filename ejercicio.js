@@ -111,4 +111,99 @@ for(let i = 0; i < arreglo.length; i++){
 }*/
 
 
-hhhhhhhhhh
+//5 
+/*let nombres = ["Maria", "Pedro", "Juan", "Pablo", "Diana"];
+let encontrado = false;
+
+for (let i = 0; i < nombres.length; i++) {
+    if (nombres[i] === "Juan") {
+        encontrado = true;
+        break;
+    }
+}
+
+if (encontrado) {
+    console.log("El nombre Juan se encuentra en el arreglo.");
+} else {
+    console.log("El nombre Juan no está en el arreglo.");
+}*/
+
+//6
+/*let nombres = ["Maria", "Pedro", "Juan", "Pablo", "Diana", "Maria"];
+let contador = 0;
+
+for (let i = 0; i < nombres.length; i++) {
+    if (nombres[i] === "Maria") {
+        contador++;
+    }
+}
+
+console.log("El nombre Maria aparece " + contador + " veces en el arreglo.");*/ 
+
+//7
+/*let numeros = [15, 7, 9, 12, 1];
+let suma = 0;
+
+numeros.forEach(num => {
+    suma += num;
+});
+
+console.log("La suma de los elementos es: " + suma);*/
+
+//8
+
+/*let numeros = [-2, 8, 99, 1, 7];
+let sumaCuadrados = 0;
+
+numeros.forEach(num => {
+    sumaCuadrados += num ** 2;
+});
+
+console.log("La suma de los cuadrados de los elementos es: " + sumaCuadrados);*/
+
+//9
+
+/*let valores = [true, true, false, true, false, false];
+let contadorFalse = 0;
+let i = 0;
+
+while (i < valores.length) {
+    if (!valores[i]) {
+        contadorFalse++;
+    }
+    i++;
+}
+*/
+
+//10
+
+/*let caracteres = ["z", "p", "s", "z", "o", "b", "a", "w", "d"];
+let palabra = "adso";
+let encontrada = true;
+
+for (let i = 0; i < palabra.length; i++) {
+    if (!caracteres.includes(palabra[i])) {
+        encontrada = false;
+        break;
+    }
+}*/
+
+//11
+
+/*let numeros = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+for (let i = 0; i < numeros.length; i++) {
+    console.log(`5 x ${numeros[i]} = ${5 * numeros[i]}`);
+}*/
+
+//12
+
+/*let numeros = [5, 7, 90, 2, 5, 3, 8, 99];
+
+numeros.forEach((num1, i) => {
+    numeros.forEach((num2, j) => {
+        if (i !== j && (num1 + 1 === num2 || num1 - 1 === num2)) {
+            console.log(`${num1} y ${num2} son consecutivos.`);
+        }
+    });
+});*/
